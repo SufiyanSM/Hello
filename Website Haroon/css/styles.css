@@ -1,0 +1,13 @@
+body {
+  background-color: #d9bdd9;
+}
+
+h1 {
+  align-content: center;
+  color: #53c8e6;
+  text-shadow: 6.5px 5px #2f7182;
+  font-size: 80px;
+  font-family: "Georgia", Times, serif;
+  font-weight: bolder;
+  font-style: oblique;
+}
