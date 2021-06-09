@@ -7,5 +7,18 @@
   </head>
   <body>
   <center><h1>Haroons Website</h1></center>
+    <script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "e2be09ad-16a7-48c5-b63d-61fb0f5fcc1d", // The ID of this integration.
+      region: "eu-gb", // The region your integration is hosted in.
+      serviceInstanceID: "81376d9e-64ee-44e1-8bc2-0cfc62de3f3f", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
   </body>
 </html>
